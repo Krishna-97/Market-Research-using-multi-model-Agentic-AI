@@ -119,7 +119,7 @@ TAVILY_API_KEY=your_tavily_api_key
 Run the main orchestrator script or UI application:
 
 ```bash
-python main.py --topic "EV Charging Infrastructure Market in India 2026"
+python main.py --topic "Generative_AI_in_Healthcare_&_Drug_Discovery_Report"
 
 ```
 
@@ -135,14 +135,8 @@ streamlit run app.py
 ## 📂 Project Structure
 
 ```
-├── config/             # Agent definitions & prompt templates
-├── tools/              # Custom tools (web search, data scrapers, PDF generators)
-├── agents/             # Multi-agent role implementations
-├── outputs/            # Generated reports and data exports
-├── .env.example        # Environment variable template
-├── app.py              # User Interface (Streamlit / Gradio)
-├── main.py             # CLI entry point
-├── requirements.txt    # Python dependencies
+├── Multi_model_AgenticAI_Program_file.ipynb # Contains all program part of this project
+├── results/            # Generated reports
 └── README.md           # Project documentation
 
 ```
