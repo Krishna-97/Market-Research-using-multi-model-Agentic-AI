@@ -38,28 +38,28 @@ An intelligent, multi-agent market research platform that leverages specialized 
 ```
 
 [User Input Query / Topic]
-│
-▼
+                 │
+                 ▼
 ┌─────────────────────────────────────────┐
 │           Orchestrator Agent            │
 └──────────────────┬──────────────────────┘
-│
-┌──────────────┼──────────────┐
-▼              ▼              ▼
+                   │
+    ┌──────────────┼──────────────┐
+    ▼              ▼              ▼
 ┌─────────┐  ┌───────────┐  ┌────────────┐
 │ Search  │  │ Competitor│  │ Sentiment  │
 │  Agent  │  │  Agent    │  │  & Trend   │
 └────┬────┘  └─────┬─────┘  └─────┬──────┘
-│             │              │
-└─────────────┼──────────────┘
-│
-▼
+     │             │              │
+     └─────────────┼──────────────┘
+                   │
+                   ▼
 ┌─────────────────────────────────────────┐
 │     Report Synthesizer / Writer Agent   │
 └──────────────────┬──────────────────────┘
-│
-▼
-[Final Market Research Report]
+                   │
+                   ▼
+    [Final Market Research Report]
 
 ```
 
