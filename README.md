@@ -34,9 +34,6 @@ An intelligent, multi-agent market research platform that leverages specialized 
 
 ## 🏗 System Architecture
 
-
-```
-
 [User Input Query / Topic]
                  │
                  ▼
@@ -62,6 +59,10 @@ An intelligent, multi-agent market research platform that leverages specialized 
     [Final Market Research Report]
 
 ```
+
+```
+
+
 
 ---
 
